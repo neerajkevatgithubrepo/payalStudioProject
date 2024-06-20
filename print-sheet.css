@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#page-body {
+    background-image: linear-gradient(0deg, #ffeb00, #ec9eff, red, #26ff69, blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#print-btn {
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 29px;
+    text-align: center;
+    font-weight: 700;
+    z-index: 10;
+    content: "";
+    position: sticky;
+    top: 526px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#a4sheet {
+    width: 210mm;
+    height:297mm;
+    background-color: blueviolet;
+    margin:  10px auto;
+    border: 2px solid rgb(255, 255, 255);
+ 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content:between;
+    align-items: start;
+   /* display: grid;
+    grid-template-columns: repeat(2, 104mm);*/
+
+}
+
+.temp-card {
+    margin: 2mm auto;
+    border: 1px dashed black;
+    border-radius: 4px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Add a valid background property or remove it if not needed */
+    /* Example: background-color: #fff; */
+}
+
+.s-class {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.s-name {
+    width: inherit;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+}
+
+.s-photo {
+    background-size: cover;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+
+}
+
+.text-details {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    text-align: left;
+    font-family: math;
+    position: absolute;
+
+}
+
+.required-details {
+    margin: 0px 5px 0px 0px;
+}

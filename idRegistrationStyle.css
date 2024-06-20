@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    background-color: f2f2f2;
+
+}
+
+.style {
+    background-color: white;
+    border-radius: 7px;
+    width: 500px;
+    padding: 20px;
+    margin: 50px auto 0;
+    border-top: 7px solid rgb(10, 65, 230);
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.5);
+
+}
+
+.style h1 {
+    font-size: 40px;
+    line-height: 24px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    ;
+    text-align: center;
+    border: 2px;
+    margin-top: 0px;
+
+}
+
+.style hr {
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.5);
+}
+
+.input {
+    width: 100%;
+    position: relative;
+    margin: 15ox auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+}
+
+.formate {
+    width: 100%;
+    position: relative;
+    margin: justify;
+    font-size: 25px;
+
+    padding: 6px;
+    border-radius: 8px;
+}

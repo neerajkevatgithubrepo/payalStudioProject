@@ -1,0 +1,80 @@
+*
+{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+body
+{
+    background-color:#cccccc;
+}
+
+.main-div
+{
+    
+    border-radius: 7px;
+    width: 500px;
+    padding: 20px;
+    margin: 50px auto 0;
+border-top: 7px solid rgb(10, 65, 230);
+box-shadow: 0 7px 7px rgba(0, 0, 0, 0.5);
+}
+
+.heading h2
+{
+     font-size: 40px;
+     line-height: 40px;
+     padding-bottom:5px;
+     padding-top:0px; ;
+     text-align: center;
+     border: 2px;
+     margin-top: 0px;
+     margin-left: 10px;
+     font-style: ;
+     text-shadow: 5px;
+
+}
+
+ hr
+{
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.5);
+}
+
+p
+{
+    font-size:25px;
+    font-style:bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.main-div input
+{
+    width: 80%;
+    position: relative;
+    margin: 7px auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px 5px 10px;
+    border-radius: 8px;
+}
+
+.main-div forgot-pass
+{
+    font-size: 20px;
+}
+
+
+@media (max-width:500px)
+
+.main-div
+{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    align: center;
+    margin:5px;
+}

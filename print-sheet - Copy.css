@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen {
+
+    #page-body {
+        background-image: linear-gradient(0deg, #ffeb00, #ec9eff, red, #26ff69, blue);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    #print-btn {
+        display: flow;
+        margin: auto;
+        width: 106px;
+        height: 40px;
+        border-radius: 9px;
+        position: sticky;
+        top: 550px;
+        z-index: 10;
+        cursor: pointer;
+    }
+
+    /* 
+    #a4sheet {
+        width: 8.263in;
+        margin-top: 10px;
+        margin-left: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    } */
+    /* #a4sheet {
+        width: 210mm;
+        height: max-content;
+        border: 1px solid black;
+        margin: 0px auto 40px;
+        background-color: #ffffff;
+        display: grid;
+        grid-template-columns: repeat(2, 85mm);
+        grid-template-rows: repeat(5, 55mm);
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        gap: 4mm 20mm;
+        padding: 3mm 0mm;
+    } */
+
+    /* #a4sheet {
+        width: 210mm;
+        height: 297mm;
+        border: 1px solid black;
+        margin: 0px auto 40px;
+        background-color: #ffffff;
+
+        justify-items: center;
+        align-items: center;
+        padding: 10px 28px;
+
+        display: grid;
+        grid-template-rows: repeat(5, 59.2mm);
+        grid-auto-flow: column;
+        grid-template-columns: repeat(2, 85mm);
+        grid-gap: 14px 94px;
+        grid-auto-rows: 55mm;
+    } */
+
+    #a4sheet {
+        width: 210mm;
+        height: max-content;
+        /* height: 297mm; */
+        border: 1px solid black;
+        margin: 0px auto 40px;
+        background-color: #ffffff;
+        /* justify-items: center; */
+        /* align-items: center; */
+        /* padding: 10px 28px; */
+        display: grid;
+        /* grid-template-rows: repeat(5, 59.2mm); */
+        /* grid-auto-flow: column; */
+        grid-template-columns: repeat(2, 98mm);
+        /* grid-gap: 14px 94px; */
+        /* grid-auto-rows: 55mm; */
+        justify-content: center;
+        /* grid-auto-columns: 85mm; */
+        grid-auto-rows: 59mm;
+        gap: 0mm 0mm;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .temp-card {
+        /* min-width: 55mm; */
+        /* min-height: 55mm; */
+        /* max-width: 85mm; */
+        /* max-height: 85mm; */
+        /* margin: 64px auto 0px; */
+        /* background-image: url(/payalStudioProject/card-formate/IMG-20230819-WA0035.jpg); */
+        display: block;
+        border: 1px dashed black;
+        /* margin: 20px 30px; */
+        border-radius: 4px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-position: center;
+        background: round;
+
+    }
+
+    .s-class {
+        width: inherit;
+        height: max-content;
+        /* font-size: 19px; */
+        /* margin: 66px 0px 0px 123px; */
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    .s-name {
+        width: inherit;
+        height: max-content;
+        /* margin: 83px 0px 0px 95px; */
+        /* font-size: 20px; */
+        /* color: rgb(0 0 255); */
+        position: absolute;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .s-photo {
+        /* width: 19mm; */
+        /* height: 22.5mm; */
+        background-size: cover;
+        border: 2px solid black;
+        /* border-radius: 0px; */
+        background-repeat: no-repeat;
+        /* margin: 102px 0px 0px -151px; */
+        position: absolute;
+        display: flex;
+
+    }
+
+    .text-details {
+        width: max-content;
+        height: max-content;
+        display: flex;
+        text-align: left;
+        /* margin: 113px 0px 0px 103px; */
+        /* font-size: 12px; */
+        font-family: math;
+        position: absolute;
+
+    }
+
+    .required-details {
+        margin: 0px 5px 0px 0px;
+    }
+
+}

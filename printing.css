@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media print {
+
+    .printBtn {
+        display: none !important;
+
+    }
+
+    body {
+        margin: 0px;
+    }
+
+    .a4page {
+        width: 210mm;
+        /* height: 297mm; */
+        margin: 0px 0px;
+        background-color: rgb(220, 132, 24, 0);
+        display: flex;
+        flex-wrap: wrap;
+        align-self: center;
+    }
+
+    .idPage {
+        width: 86mm;
+        height: 54mm;
+        margin: 10px 30px;
+        background-image: url(idCards/idDemo.jpg);
+        object-fit: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+    }
+
+    .photo {
+        width: 80px;
+        height: 103px;
+        margin-top: 75px;
+        margin-left: 12px;
+        border: solid 1px black;
+        border-radius: 5px;
+    }
+
+    .heading,
+    .bodi {
+        font-size: 11px;
+        margin-top: 76px;
+        margin-left: 17px;
+    }
+
+    .det_field {
+        margin: 3px;
+        font-weight: 700;
+    }
+
+}

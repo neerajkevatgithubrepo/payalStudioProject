@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-body {}
+
+.header {}
+
+.main {
+    width: 1350px;
+    height: max-content;
+    margin: auto;
+    padding: 5px 5px;
+    display: flex;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(145deg, rgb(0 255 245), #ffe587, rgb(255 0 151));
+}
+
+.tool-container {}
+
+.temp-form {
+    width: 300px;
+    height: max-content;
+    border: 2px solid black;
+    /* border-radius: 5px; */
+    background-color: beige;
+}
+
+.tool-point {
+    width: 292px;
+    height: max-content;
+    margin: 2px 2px;
+    border: 1px solid black;
+    padding: 3px 3px;
+}
+
+.tool-point>h4 {}
+
+.tool-point-body {
+    /* background-color: blueviolet; */
+    width: 100%;
+    display: grid;
+    grid: auto / 1fr 1fr 1fr;
+    gap: 12px 2px;
+    margin-top: 5px;
+
+}
+
+.formate-point-body {
+    width: 100%;
+    /* background-color: chartreuse; */
+    height: max-content;
+    display: block;
+}
+
+.input-box {
+    width: 90px;
+    /* background-color: chartreuse; */
+    height: max-content;
+}
+
+.formate-input-box {
+    width: 100%;
+    /* background-color: chartreuse; */
+    height: max-content;
+    /* margin-top: 11px; */
+    display: block;
+    margin: 12px 0px 0px 0px;
+}
+
+label {
+    width: 100%;
+    display: block;
+    height: max-content;
+    /* background-color: burlywood; */
+}
+
+.radio-input {
+    width: 62%;
+    /* background-color: brown; */
+    display: flex;
+}
+
+input {
+    width: 100%;
+    height: 20px;
+    margin: 0px;
+    outline: none;
+}
+
+.submit {
+    width: 292px;
+    margin: 10px auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------ */
+
+.temp-container {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
+.temp-title {
+    width: 85mm;
+    margin: 20px auto;
+    height: max-content;
+    /* border: 2px solid black; */
+    font-family: serif;
+    text-transform: uppercase;
+}
+
+.temp-card {
+    /* min-width: 55mm; */
+    /* min-height: 55mm; */
+    /* max-width: 85mm; */
+    /* max-height: 85mm; */
+    margin: 64px auto 0px;
+    /* background-image: url(/payalStudioProject/card-formate/IMG-20230819-WA0035.jpg); */
+    display: block;
+    border: 1px dashed black;
+    border-radius: 4px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-position:center;
+    background: round;
+}
+
+
+.s-class {
+    width: inherit;
+    height: max-content;
+    /* font-size: 19px; */
+    /* margin: 66px 0px 0px 123px; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.s-name {
+    width: inherit;
+    height: max-content;
+    /* margin: 83px 0px 0px 95px; */
+    /* font-size: 20px; */
+    /* color: #d42525; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+}
+
+.s-photo {
+    /* width: 19mm; */
+    /* height: 22.5mm; */
+    background-size: cover;
+    border: 2px solid black;
+    /* border-radius: 0px; */
+    background-repeat: no-repeat;
+    /* margin: 102px 0px 0px -151px; */
+    position: absolute;
+    display: flex;
+}
+
+.text-details {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    text-align: left;
+    /* margin: 113px 0px 0px 103px; */
+    /* font-size: 12px; */
+    font-family: math;
+    position: absolute;
+}
+
+.details {}
+
+.required-details {
+    margin: 0px 5px 0px 0px;
+}
+
+.provide-details {}
+
+/* ------------------------------------------------------ */
+
+.temp-action {
+    width: 85mm;
+    height: max-content;
+    display: block;
+    margin: 24px auto 0px;
+}
+
+.action-btn {
+    display: block;
+    width: 85mm;
+    margin: 14px auto 0px;
+}
+
+.action-btn>a {
+    display: block;
+    width: 85mm;
+    margin: 0px auto 0px;
+    text-decoration: none;
+    padding: 3px 0px;
+}
+
+.upload-notice {
+    width: max-content;
+    height: max-content;
+    font-size: 31px;
+    margin: 235px auto 0px;
+}
+
+.footer {}
